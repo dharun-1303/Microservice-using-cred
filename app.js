@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://Dhanush:Dhanush%40123@cluster0.f8ryype.mongodb.net/mydatabase?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://Dhanush:<password>@college.e4uu3f2.mongodb.net/?retryWrites=true&w=majority&appName=College', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 
